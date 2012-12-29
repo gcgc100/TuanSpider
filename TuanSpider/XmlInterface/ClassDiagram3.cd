@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XmlInterface.MeiTuanXml" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>MeiTuanXml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlInterface.XmlData" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEABA=</HashCode>
+      <FileName>XmlData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="XmlInterface.oneUrl" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEJAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAYCAAA=</HashCode>
+      <FileName>XmlData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
