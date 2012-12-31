@@ -26,7 +26,7 @@ namespace XmlInterface
                 temp.discount = Convert.ToDouble(xmlNode.ChildNodes[1].FirstChild.ChildNodes[14].FirstChild.Value);
                 temp.deal_title = xmlNode.ChildNodes[1].FirstChild.ChildNodes[7].FirstChild.Value;
                 temp.seller = "糯米网";
-                temp.description = temp.deal_title + " 原价" + Convert.ToInt32(xmlNode.ChildNodes[1].FirstChild.ChildNodes[12].FirstChild.Value) +"元，现价仅售" + Convert.ToInt32(xmlNode.ChildNodes[1].FirstChild.ChildNodes[13].FirstChild.Value) + "元";
+                temp.description = temp.deal_title + " 原价" + Convert.ToDouble(xmlNode.ChildNodes[1].FirstChild.ChildNodes[12].FirstChild.Value) +"元，现价仅售" + Convert.ToDouble(xmlNode.ChildNodes[1].FirstChild.ChildNodes[13].FirstChild.Value) + "元";
                 temp.other = "";
                 foreach (XmlNode shops in xmlNode.ChildNodes[1].FirstChild.ChildNodes[16].ChildNodes)
                 {

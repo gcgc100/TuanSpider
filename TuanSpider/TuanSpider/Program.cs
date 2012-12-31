@@ -25,7 +25,7 @@ namespace TuanSpider
                     down.download(args[1], args[2]);
                     break;
                 case "i":
-                    temp = new LoadIntoDatabase(args[1], "localhost", "gyzdatabase", "root", "9917622q", 2);
+                    temp = new LoadIntoDatabase(args[1], "localhost", "gyzfull1", "root", "9917622q", 2);
                     switch (args.Count())
                     {
                         case 2:

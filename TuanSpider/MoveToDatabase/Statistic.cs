@@ -105,7 +105,7 @@ namespace MoveToDatabase
         }
 
         public void initDict()
-        {//出事话分词词典
+        {//初始化分词词典
             m_SimpleDictSeg = new CSimpleDictSeg();
             m_SimpleDictSeg.LoadConfig("KTDictSeg.xml");
             m_SimpleDictSeg.LoadDict();

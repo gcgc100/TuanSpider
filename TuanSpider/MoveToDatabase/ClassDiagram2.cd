@@ -1,25 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="MoveToDatabase.LoadIntoDatabase" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="MoveToDatabase.LoadIntoDatabase">
+    <Position X="5.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAAQAAAAAAAAAABQAgAAAAAAAAAAAIAA=</HashCode>
       <FileName>LoadIntoDatabase.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="conn" />
+      <Field Name="cmd" />
+      <Field Name="staContext" />
+      <Field Name="xmlparse" />
+    </ShowAsAssociation>
   </Class>
-  <Class Name="MoveToDatabase.Statistic" Collapsed="true">
-    <Position X="2.25" Y="0.5" Width="1.5" />
+  <Class Name="MoveToDatabase.Statistic">
+    <Position X="2.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAgAABAAAAAAAQAKAAAAAAIAAAAAAIAAIA=</HashCode>
       <FileName>Statistic.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="output" />
+      <Field Name="m_SimpleDictSeg" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KTDictSeg.CSimpleDictSeg" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MySQLDriverCS.MySQLConnection" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MySQLDriverCS.MySQLCommand" Collapsed="true">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="XmlInterface.XmlData">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="xmldoc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XmlInterface.LashouXml" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="XmlInterface.MeiTuanXml" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="XmlInterface.NuomiXml" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Xml.XmlDocument" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
   </Class>
   <Struct Name="MoveToDatabase.StatisticOutput" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Position X="0.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAQAAAAAAAIAAAAAAAAAAIAAAAAgAAAAICAAA=</HashCode>
       <FileName>Statistic.cs</FileName>
     </TypeIdentifier>
+  </Struct>
+  <Struct Name="XmlInterface.oneUrl" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
   </Struct>
   <Font Name="微软雅黑" Size="9" />
 </ClassDiagram>

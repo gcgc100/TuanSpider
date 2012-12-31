@@ -68,10 +68,15 @@ namespace MoveToDatabase
             conn.Close();
         }
 
+        public int getcount()
+        {
+            return xmlparse.getCount();
+        }
+
         public bool addLink(int start, int end)
         {//添加xml文件中从start到end的团购条目信息
             int pos = start;
-            while (pos == end)
+            while (pos <= end)
             {
                 if (!addOneUrl(pos++))
                     return false;
